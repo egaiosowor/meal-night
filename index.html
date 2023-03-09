@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+
+    <title>Meal Night</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="images/logo-2.png" alt="Meal Night Logo" class="nav__logo-img">
+            </a>
+            <div class="nav__menu-desktop">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">About Us</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Menu</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Contact Us</a></li>
+                </ul>
+            </div>
+            <div id="mobileMenu" class="nav__menu-mobile is-hidden">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">About Us</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Menu</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Contact Us</a></li>
+                </ul>
+                <hr class="divider">
+                <div class="btn-group">
+                    <a href="" onclick="return false"  class="btn">Sign Up</a>
+                </div>
+            </div>
+            <div class="nav__btns">
+                <a href="#">
+                    <img src="images/search.png" alt="Search">
+                </a>
+                <a href="#">
+                    <img src="images/cart.png" alt="Cart">
+                </a>
+                <a href="#" class="btn">
+                    Sign Up
+                </a>
+                <button id="hamburger" class="hamburger">
+                    <span class="top"></span>
+                    <span class="middle"></span>
+                    <span class="bottom"></span>
+                </button>
+            </div>
+            
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero container">
+            <div class="hero__text-box">
+                <h1>Your Favourite <span class="accent">Food</span> Delivered Hot and Fresh</h1>
+                <p>Savor the flavors of Meal Night where every bite is a culinary delight.</p>
+                <div class="btn-group">
+                    <a href="#" data-type="outline" class="btn">Download App</a>
+                    <a href="#" class="btn">Get Started Now</a>
+                </div>
+            </div>
+            <div class="hero__img">
+                <img src="images/hero-img 1.png" alt="Barbequed Buffalo wings with tomatoes and salad">
+            </div>
+        </section>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
